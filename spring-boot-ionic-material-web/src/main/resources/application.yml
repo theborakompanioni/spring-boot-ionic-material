@@ -1,0 +1,3 @@
+app:
+  name: spring-boot-ionic-material
+  description: ${app.name} is a Spring Boot application
