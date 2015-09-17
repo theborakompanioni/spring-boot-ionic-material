@@ -25,7 +25,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@WebIntegrationTest
+@WebIntegrationTest("server.port:0")
 @SpringApplicationConfiguration(classes = {SpringBootIonicMaterialWebApplication.class, CorsConfiguration.class})
 public class CorsConfigIT {
 
